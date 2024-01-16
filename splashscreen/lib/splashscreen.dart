@@ -10,6 +10,7 @@ class SplashScreen extends StatefulWidget {
   _SplashScreenState  createState() =>  _SplashScreenState();
 }
 //new comment
+//new comment 
 class  _SplashScreenState extends State<SplashScreen> {
   @override
   void initState(){
@@ -31,6 +32,9 @@ class  _SplashScreenState extends State<SplashScreen> {
               ,
                 
                 SizedBox(height: 200),
+                 Image.asset("assets/images/logo3.png", alignment: Alignment.bottomCenter,)
+,
+ SizedBox(height: 200),
                  Image.asset("assets/images/logo3.png", alignment: Alignment.bottomCenter,)
 
                 ]       
